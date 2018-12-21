@@ -459,28 +459,51 @@
                 </div>
             </div>
             <div class="view">
-                <div class="view1"></div>
+                <div id="myCarousel" class=" carousel slide">
+
+                    <div class="carousel-inner">
+                        <div class="active item view1">
+                            <i>Lorem xuebuxue buxuejiug dong added new</i><br>
+                            <div class="btn1  btn">VIEW ALL</div>
+                        </div>
+                        <div class="item view1">
+                                <i>Xuebuxue buxuejiug dong added</i><br>
+                                <div class="btn1 btn">VIEW ALL</div>
+                        </div>
+                        <div class="item view1">
+                                <i>Graphical xuebuxue buxuejiug dong added new</i><br>
+                                <div class="btn btn1">VIEW ALL</div>
+                        </div>
+                        <div class="item view1">
+                                <i>Brank of this week dong added new</i><br>
+                                <div class="btn1 btn">VIEW ALL</div>
+                        </div>
+                    </div>
+                    <a id="prev" class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a id="next" class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+                </div>
                 <div class="vv">
                     <ul class="nav-tabs nav">
-                        <li>
+                        <li data-target="#myCarousel" data-slide-to="0">
                             <a id="vv1" href="#">
                                 <div class="glyphicon glyphicon-menu-hamburger"></div>
                                 <p>SALES</p>
                             </a>
                         </li>
-                        <li>
+                        <li data-target="#myCarousel" data-slide-to="1">
                             <a href="#">
                                 <div class="glyphicon glyphicon-folder-close"></div>
                                 <p>PROMO</p>
                             </a>
                         </li>
-                        <li>
+                        <li data-target="#myCarousel" data-slide-to="2">
                             <a href="#">
                                 <div class="glyphicon glyphicon-camera"></div>
                                 <p>PHOTO</p>
                             </a>
                         </li>
-                        <li id="vv4">
+                        <li data-target="#myCarousel" data-slide-to="3" id="vv4">
                             <a id="v4" href="#">
                                 <div class="glyphicon glyphicon-adjust"></div>
                                 <p>OTHER</p>
